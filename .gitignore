@@ -1,0 +1,82 @@
+# Sensitive credentials and environment files
+auth.json
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+
+# Memory / session / runtime state
+memories/
+sessions/
+state.db
+state.db-*
+state.db.*
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Workspace and temporary working files
+workspace/
+tmp/
+temp/
+.cache/
+.cache-loader/
+
+# Cache directories
+*_cache/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.npm/
+.yarn/
+node_modules/
+
+# Local-only configuration
+local/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+venv/
+.venv/
+env/
+ENV/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Node / JavaScript
+dist/
+build/
+coverage/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Docker overrides
+docker-compose.override.yml
+
+# Backup files
+*.bak
+*.old
+*.orig
+*.tmp
